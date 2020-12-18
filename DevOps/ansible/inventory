@@ -1,0 +1,12 @@
+[testvm]
+testvm_ip
+ 
+[jenkins]
+jenkinsvm_ip
+
+[untilities]
+jenkinsvm_ip
+testvm_ip
+
+
+

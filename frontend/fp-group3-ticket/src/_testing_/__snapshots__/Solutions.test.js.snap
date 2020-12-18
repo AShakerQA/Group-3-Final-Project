@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of Solutions  Solutions should match the snapshot every time it is rendered 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="noMargin row"
+  >
+    <div
+      className="mt-3 pt-3 pl-0 col-2"
+    >
+      <div
+        className="parentSideContainer"
+      >
+        <div
+          className="sidebarContainer mb-3"
+        >
+          <div
+            className="accordion"
+          >
+            <div
+              className="sideBarContainer card"
+            >
+              <div
+                className="p-0 sideBarContainer card-header"
+                onClick={[Function]}
+              >
+                <div
+                  className="sidebarInnerContainer"
+                >
+                  <h4
+                    className="sidebarText"
+                  >
+                    Sort
+                  </h4>
+                </div>
+              </div>
+              <div
+                aria-expanded={null}
+                className="collapse"
+              >
+                <div
+                  className="p-0 card-body"
+                >
+                  <div
+                    className="sidebarInnerContainer sideBody"
+                    onClick={[Function]}
+                  >
+                    <p
+                      className="sidebarChildText"
+                    >
+                      Title
+                    </p>
+                  </div>
+                  <div
+                    className="sidebarInnerContainer sideBody"
+                    onClick={[Function]}
+                  >
+                    <p
+                      className="sidebarChildText"
+                    >
+                      Topic
+                    </p>
+                  </div>
+                  <div
+                    className="sidebarInnerContainer sideBody"
+                    onClick={[Function]}
+                  >
+                    <p
+                      className="sidebarChildText"
+                    >
+                      Cohort
+                    </p>
+                  </div>
+                  <div
+                    className="sidebarInnerContainer sideBody"
+                    onClick={[Function]}
+                  >
+                    <p
+                      className="sidebarChildText"
+                    >
+                      Author
+                    </p>
+                  </div>
+                  <div
+                    className="sidebarInnerContainer sideBody"
+                    onClick={[Function]}
+                  >
+                    <p
+                      className="sidebarChildText"
+                    >
+                      Trainer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sidebarContainer mb-3"
+        >
+          <div
+            className="accordion"
+          >
+            <div
+              className="sideBarContainer card"
+            >
+              <div
+                className="p-0 sideBarContainer card-header"
+                onClick={[Function]}
+              >
+                <div
+                  className="sidebarInnerContainer"
+                >
+                  <h4
+                    className="sidebarText"
+                  >
+                    Filter
+                  </h4>
+                </div>
+              </div>
+              <div
+                aria-expanded={null}
+                className="collapse"
+              >
+                <div
+                  className="p-0 card-body"
+                >
+                  <div
+                    className="accordion"
+                  >
+                    <div
+                      className="sideBarContainer card"
+                    >
+                      <div
+                        className="p-0 sideBarContainer card-header"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="sidebarInnerContainer"
+                        >
+                          <h6
+                            className="sidebarText"
+                          >
+                            Priority
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="p-0 card-body"
+                        >
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Low
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Medium
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              High
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Critical
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="accordion"
+                  >
+                    <div
+                      className="sideBarContainer card"
+                    >
+                      <div
+                        className="p-0 sideBarContainer card-header"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="sidebarInnerContainer"
+                        >
+                          <h6
+                            className="sidebarText"
+                          >
+                            Status
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="p-0 card-body"
+                        >
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Unresolved
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Ongoing
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Resolved
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="accordion"
+                  >
+                    <div
+                      className="sideBarContainer card"
+                    >
+                      <div
+                        className="p-0 sideBarContainer card-header"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="sidebarInnerContainer"
+                        >
+                          <h6
+                            className="sidebarText"
+                          >
+                            Topic
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="p-0 card-body"
+                        >
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Networking
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Security
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Privacy
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Hardware
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Other
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="accordion"
+                  >
+                    <div
+                      className="sideBarContainer card"
+                    >
+                      <div
+                        className="p-0 sideBarContainer card-header"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="sidebarInnerContainer"
+                        >
+                          <h6
+                            className="sidebarText"
+                          >
+                            Cohort
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        aria-expanded={null}
+                        className="collapse"
+                      >
+                        <div
+                          className="p-0 card-body"
+                        >
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              CloudNative
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Software
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              DevOps
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Testing
+                            </p>
+                          </div>
+                          <div
+                            className="sidebarInnerContainer sideBody"
+                            onClick={[Function]}
+                          >
+                            <p
+                              className="sidebarChildText"
+                            >
+                              Other
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="pt-3 mt-3 pr-0 col-10"
+    >
+      <p>
+        Mocked SolutionsStaticBody
+      </p>
+    </div>
+  </div>
+</div>
+`;

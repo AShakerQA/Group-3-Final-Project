@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Header Header should match the snapshot every time it is rendered 1`] = `
+<div
+  className="pt-5 container"
+>
+  <h1
+    className="text-center whiteText"
+  >
+    QA HelpDesk
+  </h1>
+</div>
+`;

@@ -1,0 +1,69 @@
+
+- name: Install docker dependencies
+  apt:
+    name: "{{item}}"
+    state: present
+    update_cache: yes
+  loop:
+       - apt-transport-https
+       - ca-certificates
+       - curl
+       - gnupg-agent
+       - software-properties-common
+       - python3-pip
+       - python3-setuptools
+       - virtualenv
+
+- name: Add docker GPG apt key
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+
+- name: Add docker repository
+  apt_repository:
+    repo: deb https://download.docker.com/linux/ubuntu bionic stable
+    state: present
+
+- name: Install docker
+  apt:
+    name: "{{item}}"
+    state: latest
+    update_cache: yes
+  loop:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+
+- name: Add Docker to group
+  shell: "usermod -aG docker $(whoami)"
+  register: Docker_Group_Add
+
+- name: Start docker
+  service:
+    name: docker
+    state: started
+    enabled: true
+
+- name: Docker added to group
+  debug:
+    msg: "Container Output: {{Docker_Group_Add.stdout}}"
+
+- name: Test Docker with hello world example
+  shell: "docker run hello-world"
+  register: hello_world_output
+
+- name: show output of hello word example
+  debug:
+    msg: "Container Output: {{hello_world_output.stdout}}"
+
+- name: create docker group
+  group:
+    name: "docker"
+    state: present
+
+- name: adding user {{ USER }} to docker group
+  user:
+    name: "{{ USER }}"
+    groups: "docker"
+    append: "yes"
+

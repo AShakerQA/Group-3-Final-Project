@@ -1,0 +1,2 @@
+- name: nodejs install
+  script: /home/ubuntu/Group-3-Final-Project/DevOps/ansible/ansible-scripts/node-install.sh

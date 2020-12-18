@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of Login Card  Login Card should match the snapshot every time it is rendered 1`] = `
+<div
+  className="loginCard card"
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="text-center card-title h5"
+    >
+      <h3>
+        Log in
+      </h3>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Email address
+      </label>
+      <input
+        className="form-control"
+        placeholder="Enter email"
+        type="email"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Password
+      </label>
+      <input
+        className="form-control"
+        placeholder="Enter password"
+        type="password"
+      />
+    </div>
+    <a
+      href="/tickets"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn-primary btn-block"
+        type="submit"
+      >
+        Submit
+      </button>
+    </a>
+  </div>
+</div>
+`;

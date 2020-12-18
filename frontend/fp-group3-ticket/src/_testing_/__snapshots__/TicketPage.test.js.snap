@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of TicketPage  TicketPage should match the snapshot every time it is rendered 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="noMargin row"
+  >
+    <div
+      className="mt-3 pt-3 pl-0 col-2"
+      sticky="top"
+    >
+      <p>
+        Mocked Sidebar
+      </p>
+    </div>
+    <div
+      className="pt-3 mt-3 pr-0 col-10"
+    >
+      <p>
+        Mocked TicketList
+      </p>
+    </div>
+  </div>
+</div>
+`;

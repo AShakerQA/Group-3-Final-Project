@@ -1,0 +1,4 @@
+- name: Sending testvm keys to jenkinsvm to allow ssh
+  authorized_key: user=jenkins key="{{item}}"
+  with_file:
+  - ~/keys/testvm/id_rsa.pub

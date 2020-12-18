@@ -1,0 +1,28 @@
+- name: Create the jenkins user
+  user: 
+    name: jenkins 
+    append: yes 
+    state: present
+    createhome: yes 
+    shell: /bin/bash
+
+- name: Giving jenkins passwordless sudo
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^%jenkins'
+    line: 'jenkins ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'
+
+- name: Add sudoers users to jenkins group
+  user:
+    name=jenkins
+    groups=jenkins
+    append=yes
+    state=present
+    createhome=yes
+
+- name: Set up authorized keys for the jenkins user
+  authorized_key: user=jenkins key="{{item}}"
+  with_file:
+    - ~/.ssh/id_rsa.pub

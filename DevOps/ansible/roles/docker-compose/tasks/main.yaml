@@ -1,0 +1,17 @@
+- name: Install docker-compose
+  get_url:
+    url: https://github.com/docker/compose/releases/download/{{ DOCKER_COMPOSE_VERSION }}/docker-compose-Linux-x86_64
+    dest: "/usr/local/bin/docker-compose"
+    mode: 0755
+
+- name: Install Ctop
+  get_url:
+    url: https://github.com/bcicen/ctop/releases/download/v{{ CTOP_VERSION }}/ctop-{{ CTOP_VERSION }}-linux-amd64
+    dest: "/usr/local/bin/ctop"
+    mode: 0755
+
+- name: reboot server in order for changes to take place
+  shell: "sleep 1 && reboot"
+  async: 1
+  poll: 0
+

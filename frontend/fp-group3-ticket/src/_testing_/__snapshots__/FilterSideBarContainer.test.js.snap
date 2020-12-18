@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of FilterSideBarContainer  FilterSideBarContainer should match the snapshot every time it is rendered 1`] = `
+<div
+  className="sidebarContainer mb-3"
+>
+  <div
+    className="accordion"
+  >
+    <div
+      className="sideBarContainer card"
+    >
+      <div
+        className="p-0 sideBarContainer card-header"
+        onClick={[Function]}
+      >
+        <p>
+          Mocked FilterTopic
+        </p>
+      </div>
+      <div
+        aria-expanded={null}
+        className="collapse"
+      >
+        <div
+          className="p-0 card-body"
+        >
+          <p>
+            Mocked FilterPriority
+          </p>
+          <p>
+            Mocked FilterStatus
+          </p>
+          <p>
+            Mocked FilterTopic
+          </p>
+          <p>
+            Mocked FilterCohort
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

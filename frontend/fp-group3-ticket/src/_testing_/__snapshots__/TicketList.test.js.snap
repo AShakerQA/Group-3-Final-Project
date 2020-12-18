@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test of TicketList  TicketList should match the snapshot every time it is rendered 1`] = `
+<p>
+   Please wait.... we are loading your information
+</p>
+`;

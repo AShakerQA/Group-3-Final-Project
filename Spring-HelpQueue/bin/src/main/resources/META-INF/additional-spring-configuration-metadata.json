@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "cloud.aws.rds.database-1.password",
+  "type": "java.lang.String",
+  "description": "A description for 'cloud.aws.rds.database-1.password'"
+}]}
